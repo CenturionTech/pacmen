@@ -2,9 +2,9 @@
     const pacmanStartSound = new Audio();
     const pacmanChomp = new Audio();
     const pacmanDeath = new Audio();
-    pacmanStartSound.src = "../sounds/pacman_beginning.wav";
-    pacmanChomp.src = "../sounds/pacman_chomp.wav";
-    pacmanDeath.src = "../sounds/pacman_death.wav";
+    pacmanStartSound.src = "./pacman_beginning.wav";
+    pacmanChomp.src = "./pacman_chomp.wav";
+    pacmanDeath.src = "./pacman_death.wav";
 
     function playSound(sound) { 
       sound.play() 
@@ -16,8 +16,8 @@
     var firsttime = true;
     var direction = 0;
     const pacArray = [
-        ['../images/PacMan1.png', '../images/PacMan2.png'],
-        ['../images/PacMan3.png', '../images/PacMan4.png']
+        ['./PacMan1.png', './PacMan2.png'],
+        ['./PacMan3.png', './PacMan4.png']
     ];
 
     var direction = 0;
